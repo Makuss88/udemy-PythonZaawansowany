@@ -21,7 +21,6 @@ for page in pages:
 
     except:
         print('FAILURE processing web page: {}'.format(page["name"]))
-        print('Stopping the process!')
         break
 
 else:
