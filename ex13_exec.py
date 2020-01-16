@@ -1,4 +1,3 @@
-import os
 files_to_process = [
     r'C:\Users\Blu\projects\udemy\ex13a.py',
     r'C:\Users\Blu\projects\udemy\ex13b.py'
