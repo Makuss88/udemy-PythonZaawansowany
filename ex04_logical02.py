@@ -7,7 +7,7 @@ def counterWord(file):
     return word_count
 
 
-path = r'txt04'
+path = r'txt04.txt'
 if os.path.isfile(path):
     print("How many words?? {}!".format(counterWord(path)))
 
