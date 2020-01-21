@@ -8,14 +8,14 @@ def wrapper_time(a_function):
         result = a_function(*args, **kwargs)
         time_stop = time.time()
         timer = time_stop-time_start
-        print("Function: {} - time: {}".format(a_function.__name__, timer))
+        #print("Function: {} - time: {}".format(a_function.__name__, timer))
 
         return result
 
     return a_wrapped_function
 
 
-#@wrapper_time
+@wrapper_time
 def get_sequence(n):
     if n <= 0:
         return 1
@@ -26,9 +26,10 @@ def get_sequence(n):
         return v
 
 
-#print(get_sequence(3))
+number = 16
+print(get_sequence(number))
 
 GetWithLog = wrapper_time(get_sequence)
-print(GetWithLog(18))
+print(GetWithLog(number))
 
 # ja wole bez dekoratora...
