@@ -9,7 +9,8 @@ def wrapper_with_log_file(logged_action, log_file_path):
             file.write('Function {} in {} - time is: {}'.format(logged_action, path, dt.now().strftime("%Y-%m-%d %H:%M:%S")))
             file.write("\n")
             file.close()
-            return func(path)
+            result = func(path)
+            return result
         return the_real_wrapper
     return wrapper_with_log_to_known_file
 
