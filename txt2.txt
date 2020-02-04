@@ -1,0 +1,8 @@
+--------------------------------------------------
+Function FILE DELETED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:03
+--------------------------------------------------
+Function FILE DELETED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:03
+--------------------------------------------------
+Function FILE DELETED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:50
+--------------------------------------------------
+Function FILE DELETED in c:\temp\dummy_file.txt - time is: 2020-01-21 14:16:43

@@ -1,0 +1,16 @@
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:44:06
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:45:08
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:03
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:03
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:50
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 13:46:50
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 14:16:43
+--------------------------------------------------
+Function FILE CREATED in c:\temp\dummy_file.txt - time is: 2020-01-21 14:16:43
