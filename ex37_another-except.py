@@ -11,7 +11,7 @@ def save_url_to_file(url, file_path):
 
 url = 'http://www.mobilo24.eu/spis/'
 dir = '/home/makuss/inny dysk/projects/udemy'
-tmpfile = 'download.tmp'
+tmpfile = 'downlad.tmp'
 file = 'spis.html'
 
 tmpfile_path = os.path.join(dir, tmpfile)
@@ -27,6 +27,15 @@ try:
 
     print("kopiowanie")
     shutil.copy(tmpfile_path, file_path)
+
+except requests.exceptions.ConnectionError:
+    print("nie działa połczenie z {}".format(url))
+
+except PermissionError:
+    print("'nie działa zapisywanie do pliku {}".format(tmpfile_path))
+
+except FileNotFoundError:
+    print("nie ma pliku {}".format(file_path))
 
 except Exception as e:
     print("nie działa {}".format(e))
