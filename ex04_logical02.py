@@ -12,4 +12,4 @@ if os.path.isfile(path):
     print("How many words?? {}!".format(counterWord(path)))
 
 
-os.path.isfile(path) and print("How many words?? {}!".format(counterWord(path)))
+os.path.isfile(path) and print("How many words number 2?? {}!".format(counterWord(path)))
